@@ -4,19 +4,18 @@ import java.io.Serializable;
 
 import javax.persistence.Embeddable;
 import javax.persistence.JoinColumn;
-import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 
 @Embeddable
-public class ScorePK implements Serializable{
+public class ScorePK implements Serializable {
 	
-
 	private static final long serialVersionUID = 1L;
 
-	@ManyToMany
+	@ManyToOne
 	@JoinColumn(name = "movie_id")
 	private Movie movie;
-
-	@ManyToMany
+	
+	@ManyToOne
 	@JoinColumn(name = "user_id")
 	private User user;
 	
