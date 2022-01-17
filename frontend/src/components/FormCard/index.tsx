@@ -1,5 +1,4 @@
 import axios, { AxiosRequestConfig } from 'axios';
-import { Console } from 'console';
 import { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { Movie } from 'types/movie';
