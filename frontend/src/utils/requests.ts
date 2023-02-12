@@ -1,1 +1,1 @@
-export const BASE_URL = "dsmovie-production-5d49.up.railway.app";  
+export const BASE_URL = "https://dsmovie-production-5d49.up.railway.app";  
